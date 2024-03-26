@@ -1,22 +1,24 @@
 h1{
-    color: rgb(255, 125, 255);
+    color: rgb(245, 44, 138);
     font-family: 'italic';
     font-size: 50px;
     text-align: center;
-    border: solid 1px plum;
-    height: 150px;
 }
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     font-size: 20px;
     font-family: 'Verdana';
-    color: rgb(255, 180, 255);
+    color: rgb(255, 126, 197);
 }
 
 a{
     text-decoration: none;
-    color: #ea00ff;
-    font-size: 30px;
+    color: #e640bc;
+    font-size: 25px;
+    border: solid;
+    border-radius: 8px;
+    border-color: #f17fd5;
+    background-color: #ffb2ec;
 }
 
 #duasvezes{
@@ -24,24 +26,19 @@ a{
 }
 
 h2{
-    color: rgb(255, 125, 255);
-    font-family: 'italic';
-    font-size: 30px;
-}
-
-h2{
+    color: rgb(248, 74, 176);
     font-family: 'italic';
     font-size: 30px;
 }
 
 h3{
-    color: rgb(255, 125, 255);
+    color: rgb(248, 74, 176);
     font-family: 'italic';
     font-size: 30px;
 }
 
 h4{
-    color: rgb(255, 125, 255);
+    color: rgb(248, 74, 176);
     font-family: 'italic';
     font-size: 30px;
 }
@@ -68,7 +65,7 @@ img{
 }
 
 h5{
-    color: rgb(255, 125, 255);
+    color: rgb(248, 74, 176);
     font-family: 'italic';
     font-size: 30px;
 }
@@ -81,7 +78,7 @@ h5{
 }
 
 h6{
-    color: rgb(255, 125, 255);
+    color: rgb(248, 74, 176);
     font-family: 'italic';
     font-size: 30px;
 }
