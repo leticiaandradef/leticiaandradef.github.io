@@ -19,6 +19,7 @@ a{
     border-radius: 8px;
     border-color: #f17fd5;
     background-color: #ffb2ec;
+    text-align: right;
 }
 
 #duasvezes{
@@ -98,6 +99,15 @@ iframe{
 .spotify{
     width: 500px;
     height: 352px;
+    margin: auto;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.fy{
+    width: 1000px;
+    height: 500px;
     margin: auto;
     display: flex;
     justify-self: center;
