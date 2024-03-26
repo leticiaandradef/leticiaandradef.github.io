@@ -94,3 +94,12 @@ iframe{
     margin: auto;
     size: 20px;
 }
+
+.spotify{
+    width: 500px;
+    height: 352px;
+    margin: auto;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
