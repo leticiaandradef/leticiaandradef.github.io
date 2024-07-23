@@ -1,0 +1,17 @@
+h1{
+    font-style: italic;
+    font-size: 5vh;
+    text-align: center;
+}
+
+p{
+    font-size: 3vh;
+    text-align: center;
+    
+}
+
+img{
+    display: block;
+    width: 30vh;
+    margin: auto;
+}
