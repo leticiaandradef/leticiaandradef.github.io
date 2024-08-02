@@ -1,0 +1,40 @@
+h1{
+    font-style: normal;
+    font-size: 5vh;
+    text-align: center;
+    color: rgb(146, 184, 197);
+}
+
+p{
+    font-size: 3vh;
+    text-align: center;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    color: rgb(98, 136, 141);
+}
+
+img{
+    display:  block;
+    width: 30vh;
+    margin: auto;
+    border-radius: 10px;
+    border: solid, black;
+}
+
+h2{
+    font-style: italic;
+    font-size: 4vh;
+    text-align: center;
+    color: rgb(78, 153, 179);
+}
+
+iframe{
+    width: 60vh;
+    height: 83vh;
+    display: block;
+    margin: auto;
+}
+
+body{
+    background-image: linear-gradient(lightcyan, lightblue);
+}
