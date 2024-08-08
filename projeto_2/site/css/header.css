@@ -27,11 +27,11 @@ nav {
 .paginas{
     display: inline-block;
     padding: 10px;
-    font-style: italic;
+    font-style: normal;
     margin: 0;
 
 }
 
 a:hover {
-    color: white;
+    color: rgb(0, 67, 99);
 }
