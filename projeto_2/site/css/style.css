@@ -29,8 +29,8 @@ h2{
 }
 
 iframe{
-    width: 30vh;
-    height: 43vh;
+    width: 60vh;
+    height: 53vh;
     display: block;
     margin: auto;
     padding: 0;
@@ -48,8 +48,8 @@ h3{
 }
 
 .wv{
-    width: 20vh;
-    height: 20vh;
+    width: 50vh;
+    height: 50vh;
     display: block;
     margin: auto;
 }
