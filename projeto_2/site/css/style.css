@@ -29,10 +29,11 @@ h2{
 }
 
 iframe{
-    width: 60vh;
-    height: 83vh;
+    width: 30vh;
+    height: 43vh;
     display: block;
     margin: auto;
+    padding: 0;
 }
 
 body{
@@ -47,8 +48,8 @@ h3{
 }
 
 .wv{
-    width: 30vh;
-    height: 30vh;
+    width: 20vh;
+    height: 20vh;
     display: block;
     margin: auto;
 }
@@ -68,4 +69,12 @@ h4{
     text-align: center;
     color: rgb(9, 146, 192);
 }
+
+.w2{
+    width: 20vh;
+    height: 20vh;
+    display: block;
+    margin: auto;
+    padding: 0;
+    display: block;
 }
