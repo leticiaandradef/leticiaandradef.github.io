@@ -11,6 +11,7 @@ p{
     margin-left: 20vw;
     margin-right: 20vw;
     color: rgb(98, 136, 141);
+    display: block;
 }
 
 img{
