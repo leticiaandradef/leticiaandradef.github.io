@@ -25,12 +25,11 @@ h2{
     font-style: normal;
     font-size: 4vh;
     text-align: center;
-    color: rgb(146, 184, 197);
+    color: rgb(9, 146, 192);
 }
 
 iframe{
     width: 60vh;
-    height: 83vh;
     display: block;
     margin: auto;
 }
@@ -44,4 +43,32 @@ h3{
     font-size: 3.5vh;
     text-align: center;
     color: rgb(78, 153, 179);
+}
+
+.wv{
+    width: 30vh;
+    display: block;
+    margin: auto;
+}
+
+lu{
+    font-size: 3vh;
+    text-align: center;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    color: rgb(98, 136, 141);
+    display: block;
+}
+
+h4{
+    font-style: normal;
+    font-size: 3.5vh;
+    text-align: center;
+    color: rgb(9, 146, 192);
+}
+
+.w2{
+    width: 15vh;
+    display: block;
+    margin: auto;
 }
