@@ -29,7 +29,7 @@ h2{
 }
 
 iframe{
-    width: 60vh;
+    width: 60vw;
     display: block;
     margin: auto;
 }
@@ -46,7 +46,7 @@ h3{
 }
 
 .wv{
-    width: 30vh;
+    width: 30vw;
     display: block;
     margin: auto;
 }
@@ -68,7 +68,7 @@ h4{
 }
 
 .w2{
-    width: 15vh;
+    width: 50vw;
     display: block;
-    margin: auto;
+    margin: auto ;
 }
