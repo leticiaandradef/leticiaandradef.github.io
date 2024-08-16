@@ -29,9 +29,10 @@ h2{
 }
 
 iframe{
-    width: 60vw;
+    width: 60%;
     display: block;
     margin: auto;
+    min-width: 250px;
 }
 
 body{
@@ -45,10 +46,11 @@ h3{
     color: rgb(78, 153, 179);
 }
 
-.wv{
-    width: 30vw;
+#wv{
+    width: 15%;
+    min-width: 250px;
     display: block;
-    margin: auto;
+    min-width: 250px;
 }
 
 lu{
@@ -67,8 +69,48 @@ h4{
     color: rgb(9, 146, 192);
 }
 
-.w2{
-    width: 50vw;
+#w2{
+    width: 15%;
     display: block;
-    margin: auto ;
+    margin: auto;
+    min-width: 250px;
+}
+
+#w{
+    width: 15%;
+    display: block;
+    margin: auto;
+    min-width: 250px;
+}
+
+#v{
+    width: 15%;
+    display: block;
+    min-width: 250px;
+}
+
+#card{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.wave{
+    width: 99%;
+}
+
+.earth{
+    width: 97%;
+}
+
+.we{
+    width: 99%;
+}
+
+.e{
+    width: 99%;
+}
+
+.t{
+    width: 105%;
 }
