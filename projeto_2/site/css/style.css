@@ -62,13 +62,6 @@ lu{
     display: block;
 }
 
-h4{
-    font-style: normal;
-    font-size: 3.5vh;
-    text-align: center;
-    color: rgb(9, 146, 192);
-}
-
 #w2{
     width: 15%;
     display: block;
@@ -113,4 +106,50 @@ h4{
 
 .t{
     width: 105%;
+}
+
+caption{
+    text-align: center;
+    color: rgb(9, 146, 192);
+    font-size: 3.5vh;
+    font-style: normal;
+    font-weight: bold;
+}
+table{
+    border-collapse: collapse;
+    border: solid, 1px, rgb(1, 1, 92);
+    background-color: rgb(144, 197, 218);
+    width: 40vw;
+    min-width: 300px;
+    min-height: 350px;
+    max-width: 40vw;
+    max-height: 40vw;
+    height: 50vh;
+    margin: auto;
+    table-layout: fixed;
+}
+thead{
+    height: 5vh;
+    background-color:  rgb(9, 146, 192);
+}
+td{
+    border: solid, 1px, rgb(1, 1, 92);
+    text-align: center;
+    height: 3vh;
+    font-style: normal;
+}
+th{
+    font-style: normal;
+    border: solid, 1px, rgb(1, 1, 92);
+}
+tr{
+    border: solid, 1px, rgb(1, 1, 92);
+}
+table tr:nth-child(even){
+    background-color:  rgb(89, 149, 168);
+}
+
+tfoot td{
+    text-align: right;
+    padding-right: 1%;
 }
