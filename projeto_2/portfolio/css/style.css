@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(233, 173, 255);
+}
+
+#principal{
+    width: 30vw;
+    margin: auto;
+    display: block;
+    border-radius: 25px;
+    max-width: 500px;
+    min-width: 200px;
+    margin-bottom: 2%;
+}
+
+h1{
+    font-size: 4.5vh ;
+    text-align: center;
+    font-family: cursive;
+    font-style: normal;
+    color: #8e0d9a;
+}
+
+p{
+    font-size: 3.5vh ;
+    text-align: center;
+    font-family: 'Cantarell';
+    font-style: normal;
+    color: #690073;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+main{
+    height: 82vh;
+    width: 100vw;
+}
+

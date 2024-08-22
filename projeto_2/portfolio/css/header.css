@@ -2,8 +2,8 @@ header {
     width: 100%;
     height: auto;
     font-weight: bold;
-    background-color: rgb(104, 173, 194);
-    box-shadow: 0 8px 10px rgb(218, 218, 218);
+    background-color: rgb(135, 42, 169);
+    box-shadow: 0 8px 10px #b806f8;
     border-radius: 10px;
     padding: 15px 0;
     text-align: center;
@@ -13,14 +13,14 @@ nav a {
     margin: 0;
     padding: 0;
     font-size: 20px;
-    color: rgb(209, 246, 255);
+    color: rgb(225, 142, 255);
     align-items: center;
     text-decoration: none;
 
 }
 
 nav {
-    color: rgb(0, 138, 138);
+    color: rgb(121, 4, 164);
     display: inline-block;
 }
 
@@ -33,5 +33,5 @@ nav {
 }
 
 a:hover {
-    color: rgb(0, 67, 99);
+    color: rgb(255, 255, 255);
 }
