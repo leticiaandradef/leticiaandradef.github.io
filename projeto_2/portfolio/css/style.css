@@ -35,3 +35,10 @@ main{
     width: 100vw;
 }
 
+.playlist{
+    width: 60%;
+    display: block;
+    margin: auto;
+    min-width: 250px;
+    
+}
