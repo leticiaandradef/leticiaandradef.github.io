@@ -40,5 +40,54 @@ main{
     display: block;
     margin: auto;
     min-width: 250px;
-    
+}
+
+#secundaria{
+    width: 30vw;
+    margin: auto;
+    display: block;
+    border-radius: 25px;
+    max-width: 500px;
+    min-width: 200px;
+    margin-bottom: 2%;
+}
+
+#zizi{
+    width: 30vw;
+    margin: auto;
+    display: block;
+    border-radius: 25px;
+    max-width: 500px;
+    min-width: 200px;
+    margin-bottom: 2%;
+}
+
+#family{
+    width: 30vw;
+    margin: auto;
+    display: block;
+    border-radius: 25px;
+    max-width: 500px;
+    min-width: 200px;
+    margin-bottom: 2%;
+}
+
+#sis{
+    width: 30vw;
+    margin: auto;
+    display: block;
+    border-radius: 25px;
+    max-width: 500px;
+    min-width: 200px;
+    margin-bottom: 2%;
+}
+
+.curitiba{
+    width: 30vw;
+    margin: auto;
+    display: block;
+    border-radius: 25px;
+    max-width: 500px;
+    min-width: 200px;
+    margin-bottom: 2%;
 }
