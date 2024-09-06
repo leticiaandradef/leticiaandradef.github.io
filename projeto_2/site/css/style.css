@@ -95,14 +95,14 @@ td{
 }
 th{
     font-family: normal;
-    border: solid, 1px, rgb(1, 1, 92);
+    border: solid, 1px, rgb(0, 50, 73);
     font-size: 2.5vh;
     max-height: 2.5vh;
     min-height: 2vh;
     font-weight: bold;
 }
 tr{
-    border: solid, 1px, rgb(1, 1, 92);
+    border: solid, 1px, rgb(0, 50, 73);
 }
 table tr:nth-child(even){
     background-color:  rgb(142, 187, 222);
