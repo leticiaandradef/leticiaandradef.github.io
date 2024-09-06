@@ -21,19 +21,6 @@ img{
     border: solid, black;
 }
 
-h2{
-    font-style: normal;
-    font-size: 4vh;
-    text-align: center;
-    color: rgb(9, 146, 192);
-}
-
-iframe{
-    width: 60vw;
-    display: block;
-    margin: auto;
-}
-
 body{
     background-image: linear-gradient(lightcyan, lightblue);
 }
@@ -43,12 +30,6 @@ h3{
     font-size: 3.5vh;
     text-align: center;
     color: rgb(78, 153, 179);
-}
-
-.wv{
-    width: 30vw;
-    display: block;
-    margin: auto;
 }
 
 lu{
@@ -69,6 +50,60 @@ h4{
 
 .w2{
     width: 50vw;
-    display: block;
-    margin: auto ;
+    display: flex;
+    margin: auto;
+    max-width: 400px;
+    min-width: 300px;
+    justify-content: center;
+}
+
+caption{
+    text-align: center;
+    color: var(--cor1);
+    font-size: 4vh;
+    max-height: 3vh;
+    min-height: 2vh;
+    font-family: normal;
+    font-weight: bold;
+    margin-bottom: 2%;
+    color: rgb(9, 146, 192);
+}
+table{
+    border-collapse: collapse;
+    border: solid, 1px, rgb(8, 98, 177);
+    background-color: rgb(140, 200, 224);
+    width: 40vw;
+    min-width: 300px;
+    min-height: 350px;
+    max-width: 40vw;
+    max-height: 40vw;
+    height: 50vh;
+    margin: auto;
+    table-layout: fixed;
+}
+thead{
+    height: 5vh;
+    background-color:  rgb(110, 207, 255);
+}
+td{
+    border: solid, 1px, rgb(1, 1, 92);
+    text-align: center;
+    font-size: 2.5vh;
+    max-height: 2.5vh;
+    min-height: 2.5vh;
+    font-family: normal;
+}
+th{
+    font-family: normal;
+    border: solid, 1px, rgb(1, 1, 92);
+    font-size: 2.5vh;
+    max-height: 2.5vh;
+    min-height: 2vh;
+    font-weight: bold;
+}
+tr{
+    border: solid, 1px, rgb(1, 1, 92);
+}
+table tr:nth-child(even){
+    background-color:  rgb(142, 187, 222);
 }

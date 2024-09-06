@@ -27,6 +27,14 @@ h1{
     color: #8e0d9a;
 }
 
+h2{
+    font-size: 4vh;
+    text-align: center;
+    font-family: cursive;
+    font-style: normal;
+    color: #8e0d9a;
+}
+
 p{
     font-size: 3.5vh ;
     text-align: center;
@@ -99,56 +107,145 @@ main{
     margin-bottom: 2%;
 }
 
-caption{
-    text-align: center;
-    color: var(--cor1);
-    font-size: 3vh;
-    max-height: 3vh;
-    min-height: 2vh;
-    font-family: 'Papyrus';
-    font-weight: bold;
-    margin-bottom: 2%;
+form{
+    justify-content: center;
 }
-table{
-    border-collapse: collapse;
-    border: solid, 1px, rgb(134, 11, 182);
-    background-color: rgb(209, 86, 231);
-    width: 40vw;
-    min-width: 300px;
-    min-height: 350px;
-    max-width: 40vw;
-    max-height: 40vw;
-    height: 50vh;
+
+input{
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10%;
+    border-color: #e14fef;
     margin: auto;
-    table-layout: fixed;
+    border-radius: 10px;
+    border-color: #ff03e2;
+    max-width: 200px;
+    min-width: 100px;
 }
-thead{
-    height: 5vh;
-    background-color:  rgb(178, 46, 222);
-}
-td{
-    border: solid, 1px, rgb(130, 7, 168);
+
+label{
     text-align: center;
-    font-size: 2.5vh;
-    max-height: 2.5vh;
-    min-height: 2.5vh;
-    font-family: 'Courier New';
+    justify-content: center;
+    display: flex;
+    color: #690073;
 }
-th{
-    font-family: 'Papyrus' ;
-    border: solid, 1px, rgb(129, 15, 167);
-    font-size: 2.5vh;
-    max-height: 2.5vh;
-    min-height: 2vh;
+
+button{
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    color: #e14fef;
+    border-radius: 10px;
+    border-color: #ff03e2;
+}
+
+.nome{
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.email{
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.mensagem{
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+span {
     font-weight: bold;
+    color: var(--cor1);
 }
-tr{
-    border: solid, 1px, rgb(201, 5, 255);
+
+.projeto{
+    border: solid var(--cor1) 5px;
+    border-radius: 10px;
+    width: 500px;
+    max-width: 450px;
+    min-width: 300px;
+    margin: auto;
+    height: 390px;
+    box-shadow: 0 8px 10px rgb(187, 0, 255);
+    display: block;
 }
-table tr:nth-child(even){
-    background-color:  rgb(222, 130, 255);
+
+#torre{
+    max-width: 300px;
+    min-width: 200px;
+    border-radius: 10%;
+    display: block;
+    margin: auto;
 }
-tfoot td{
-    text-align: right;
-    padding-right: 1%;
+
+#twice{
+    max-width: 300px;
+    min-width: 200px;
+    border-radius: 10%;
+    display: block;
+    margin: auto;
+}
+
+#w2e{
+    max-width: 280px;
+    min-width: 200px;
+    border-radius: 10%;
+    display: block;
+    margin: auto;
+}
+
+#card{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 5%;
+    margin-top: 0%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.tudo{
+    font-size: 3.5vh ;
+    text-align: center;
+    font-family: 'Cantarell';
+    font-style: normal;
+    color: #690073;
+}
+
+.titulo{
+    font-size: 4vh;
+    text-align: center;
+    font-family: cursive;
+    font-style: normal;
+    color: #8e0d9a;
+}
+
+a{
+    color: rgb(192, 39, 192);
+    font-style: normal;
+    font-family: cursive;
+    font-size: 2.3vh;
+    text-align: center;
+    margin:auto;
+    display: block;
+}
+
+section{
+    height: 82vh;
+    width: 100vw;
+    justify-content: center;
+    gap: 5%;
 }
