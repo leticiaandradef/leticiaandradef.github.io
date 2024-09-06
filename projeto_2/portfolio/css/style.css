@@ -100,11 +100,26 @@ main{
 .curitiba{
     width: 30vw;
     margin: auto;
-    display: block;
     border-radius: 25px;
     max-width: 500px;
     min-width: 200px;
     margin-bottom: 2%;
+}
+
+#card2{
+    display: flex;
+    justify-content: center;
+    gap: 85px;
+    align-items: flex-start;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    flex-wrap: wrap;
+}
+
+#jb{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 form{
@@ -170,12 +185,26 @@ span {
     color: var(--cor1);
 }
 
+#card{
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.projeto:hover{
+    box-shadow: 0 8px 10px rgb(251, 0, 255);
+}
+
 .projeto{
     border: solid var(--cor1) 5px;
     border-radius: 10px;
-    width: 500px;
-    max-width: 450px;
-    min-width: 300px;
+    max-width: 500px;
+    min-width: 400px;
     margin: auto;
     height: 390px;
     box-shadow: 0 8px 10px rgb(187, 0, 255);
@@ -188,6 +217,14 @@ span {
     border-radius: 10%;
     display: block;
     margin: auto;
+}
+
+.eiffel{
+    font-size: 3vh ;
+    text-align: center;
+    font-family: 'Cantarell';
+    font-style: normal;
+    color: #690073;
 }
 
 #twice{
@@ -204,17 +241,6 @@ span {
     border-radius: 10%;
     display: block;
     margin: auto;
-}
-
-#card{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 5%;
-    margin-top: 0%;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: flex-start;
 }
 
 .tudo{
@@ -241,11 +267,4 @@ a{
     text-align: center;
     margin:auto;
     display: block;
-}
-
-section{
-    height: 82vh;
-    width: 100vw;
-    justify-content: center;
-    gap: 5%;
 }
