@@ -1,40 +1,63 @@
-h1{
-    font-style: italic;
+table {
+    border-collapse: collapse;
+    border: 2px solid;
+    width: 25vw;
+    height: 20vh;
+    background-color: rgba(192, 120, 228, 0.897);
+    box-shadow: 4px 9px 12px rgb(191, 23, 209);
+    min-width: 310px;
+    max-width: 25vw;
+    margin: auto;
+}
+
+tbody {
+    color: rgb(115, 0, 130);
+    align-items: center;
+    text-align: center;
+    color: rgb(149, 25, 174);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+td {
+    border: 2px solid;
+    padding: 10px;
+}
+
+a {
+    color: rgb(202, 21, 211);
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+h1 {
+    font-size: 6vh;
+    text-align: center;
+    font-family: cursive;
+}
+
+h2 {
     font-size: 5vh;
     text-align: center;
-    color: rgb(146, 184, 197);
+    font-family: cursive;
 }
 
-p{
-    font-size: 3vh;
+h3 {
+    font-size: 5vh;
     text-align: center;
-    margin-left: 20vw;
-    margin-right: 20vw;
-    color: rgb(98, 136, 141);
+    font-family: cursive;
 }
 
-img{
-    display:  block;
-    width: 30vh;
-    margin: auto;
-    border-radius: 10px;
-    border: solid, black;
+th {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 22px;
 }
 
-h2{
-    font-style: italic;
-    font-size: 4vh;
-    text-align: center;
-    color: rgb(78, 153, 179);
-}
-
-iframe{
-    width: 60vh;
-    height: 83vh;
-    display: block;
-    margin: auto;
-}
-
-body{
-    background-image: linear-gradient(lightcyan, lightblue);
+thead {
+    background-color: rgb(201, 77, 226);
 }
