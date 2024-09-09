@@ -1,0 +1,63 @@
+table {
+    border-collapse: collapse;
+    border: 2px solid;
+    width: 25vw;
+    height: 20vh;
+    background-color: rgba(192, 120, 228, 0.897);
+    box-shadow: 4px 9px 12px rgb(191, 23, 209);
+    min-width: 310px;
+    max-width: 25vw;
+    margin: auto;
+}
+
+tbody {
+    color: rgb(115, 0, 130);
+    align-items: center;
+    text-align: center;
+    color: rgb(149, 25, 174);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+td {
+    border: 2px solid;
+    padding: 10px;
+}
+
+a {
+    color: rgb(202, 21, 211);
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+h1 {
+    font-size: 6vh;
+    text-align: center;
+    font-family: cursive;
+}
+
+h2 {
+    font-size: 5vh;
+    text-align: center;
+    font-family: cursive;
+}
+
+h3 {
+    font-size: 5vh;
+    text-align: center;
+    font-family: cursive;
+}
+
+th {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+thead {
+    background-color: rgb(201, 77, 226);
+}
