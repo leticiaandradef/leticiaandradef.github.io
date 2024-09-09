@@ -189,16 +189,17 @@ span {
 #card{
     display: flex;
     justify-content: center;
-    gap: 3px;
+    gap: 0px;
     margin-bottom: 0%;
     margin-top: 0%;
+    margin:auto;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: flex-start;
 }
 
 .projeto:hover{
-    box-shadow: 0 8px 10px rgb(251, 0, 255);
+    box-shadow: 0 8px 10px rgb(255, 0, 183);
 }
 
 .projeto{
@@ -210,22 +211,6 @@ span {
     height: 390px;
     box-shadow: 0 8px 10px rgb(187, 0, 255);
     display: block;
-}
-
-#torre{
-    max-width: 300px;
-    min-width: 200px;
-    border-radius: 10%;
-    display: block;
-    margin: auto;
-}
-
-.eiffel{
-    font-size: 3vh ;
-    text-align: center;
-    font-family: 'Cantarell';
-    font-style: normal;
-    color: #690073;
 }
 
 #twice{
@@ -242,6 +227,22 @@ span {
     border-radius: 10%;
     display: block;
     margin: auto;
+}
+
+#velas{
+    max-width: 300px;
+    min-width: 200px;
+    border-radius: 10%;
+    display: block;
+    margin: auto;
+}
+
+.vela{
+    font-size: 3vh ;
+    text-align: center;
+    font-family: 'Cantarell';
+    font-style: normal;
+    color: #690073;
 }
 
 .tudo{
