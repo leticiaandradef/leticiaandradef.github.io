@@ -1,5 +1,13 @@
+:root {
+    --cor1: white;
+    --cor2: rgba(42, 20, 66, 0.849);
+    --cor3: rgba(72, 34, 112, 0.822);
+}
+
+
 body{
     background-color: rgb(233, 173, 255);
+    display: block;
 }
 
 #principal{
@@ -14,6 +22,14 @@ body{
 
 h1{
     font-size: 4.5vh ;
+    text-align: center;
+    font-family: cursive;
+    font-style: normal;
+    color: #8e0d9a;
+}
+
+h2{
+    font-size: 4vh;
     text-align: center;
     font-family: cursive;
     font-style: normal;
@@ -85,9 +101,172 @@ main{
 .curitiba{
     width: 30vw;
     margin: auto;
-    display: block;
     border-radius: 25px;
     max-width: 500px;
     min-width: 200px;
     margin-bottom: 2%;
+}
+
+#card2{
+    display: flex;
+    justify-content: center;
+    gap: 85px;
+    align-items: flex-start;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    flex-wrap: wrap;
+}
+
+#jb{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+form{
+    justify-content: center;
+}
+
+input{
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10%;
+    border-color: #e14fef;
+    margin: auto;
+    border-radius: 10px;
+    border-color: #ff03e2;
+    max-width: 200px;
+    min-width: 100px;
+}
+
+label{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: #690073;
+}
+
+button{
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    color: #e14fef;
+    border-radius: 10px;
+    border-color: #ff03e2;
+}
+
+.nome{
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.email{
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.mensagem{
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+span {
+    font-weight: bold;
+    color: var(--cor1);
+}
+
+#card{
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin:auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.projeto:hover{
+    box-shadow: 0 8px 10px rgb(255, 0, 183);
+}
+
+.projeto{
+    border: solid var(--cor1) 5px;
+    border-radius: 10px;
+    max-width: 500px;
+    min-width: 400px;
+    margin: auto;
+    height: 390px;
+    box-shadow: 0 8px 10px rgb(187, 0, 255);
+    display: block;
+}
+
+#twice{
+    max-width: 300px;
+    min-width: 200px;
+    border-radius: 10%;
+    display: block;
+    margin: auto;
+}
+
+#w2e{
+    max-width: 280px;
+    min-width: 200px;
+    border-radius: 10%;
+    display: block;
+    margin: auto;
+}
+
+#velas{
+    max-width: 300px;
+    min-width: 200px;
+    border-radius: 10%;
+    display: block;
+    margin: auto;
+}
+
+.vela{
+    font-size: 3vh ;
+    text-align: center;
+    font-family: 'Cantarell';
+    font-style: normal;
+    color: #690073;
+}
+
+.tudo{
+    font-size: 3.5vh ;
+    text-align: center;
+    font-family: 'Cantarell';
+    font-style: normal;
+    color: #690073;
+}
+
+.titulo{
+    font-size: 4vh;
+    text-align: center;
+    font-family: cursive;
+    font-style: normal;
+    color: #8e0d9a;
+}
+
+a{
+    color: rgb(192, 39, 192);
+    font-style: normal;
+    font-family: cursive;
+    font-size: 2.3vh;
+    text-align: center;
+    margin:auto;
+    display: block;
 }
